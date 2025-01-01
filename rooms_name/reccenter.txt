@@ -1,28 +1,17 @@
 {
   "RoomId": 2,
-  "IsDorm": false,
-  "MaxPlayerCalculationMode": 1,
-  "MaxPlayers": 0,
-  "CloningAllowed": false,
-  "DisableMicAutoMute": false,
-  "DisableRoomComments": false,
-  "EncryptVoiceChat": false,
-  "ToxmodEnabled": false,
-  "LoadScreenLocked": false,
-  "PersistenceVersion": 2,
-  "AutoLocalizeRoom": false,
-  "IsDeveloperOwned": true,
-  "RankedEntityId": null,
   "Name": "RecCenter",
   "Description": "A social hub to meet and mingle with friends new and old.",
-  "ImageName": "reccenter.png",
+  "ImageName": "RecCenter.png",
   "WarningMask": 0,
-  "CustomWarning": "",
+  "CustomWarning": null,
   "CreatorAccountId": 1,
   "State": 0,
   "Accessibility": 1,
   "SupportsLevelVoting": false,
   "IsRRO": true,
+  "IsRecRoomApproved": true,
+  "FlaggedForIpInfringement": false,
   "SupportsScreens": true,
   "SupportsWalkVR": true,
   "SupportsTeleportVR": true,
@@ -31,43 +20,80 @@
   "SupportsMobile": true,
   "SupportsJuniors": true,
   "MinLevel": 0,
-  "CreatedAt": "2024-02-24T19:11:11.6987003",
+  "AgeRating": 0,
+  "CreatedAt": "2018-08-28T15:44:47.3149535Z",
+  "PublishedAt": "2020-10-08T17:41:07.0536923Z",
+  "BecameRRStudioRoomAt": null,
   "Stats": {
-    "CheerCount": 24,
-    "FavoriteCount": 25,
-    "VisitorCount": 0,
-    "VisitCount": 5528
+    "CheerCount": 736928,
+    "FavoriteCount": 520161,
+    "VisitorCount": 79164883,
+    "VisitCount": 792389347
   },
   "RankingContext": null,
+  "IsDorm": false,
+  "MaxPlayerCalculationMode": 1,
+  "MaxPlayers": 12,
+  "CloningAllowed": false,
+  "DisableMicAutoMute": false,
+  "DisableRoomComments": false,
+  "EncryptVoiceChat": false,
+  "ToxmodEnabled": true,
+  "LoadScreenLocked": false,
+  "UgcVersion": 1,
+  "PersistenceVersion": 158,
+  "AutoLocalizeRoom": false,
+  "LocalizationContext": {
+    "TargetLocale": null,
+    "Scope": null,
+    "LocalizedFields": [
+      "Description",
+      "CustomWarning"
+    ]
+  },
+  "IsDeveloperOwned": true,
+  "RankedEntityId": "170126",
+  "DataBlob": "3eccjaqia7lppgfnx69bq9997.meta",
+  "DataBlobHash": "dam+un0T+yGsRE5r2+QirB5+qa63vlNqQnvoDurJPWI=",
   "SubRooms": [
     {
       "SubRoomId": 2,
       "RoomId": 2,
+      "CreatorAccountId": null,
+      "UnitySceneId": "cbad71af-0831-44d8-b8ef-69edafa841f6",
       "Name": "Home",
-      "DataBlob": "RoomData2841116730845187810",
+      "CurrentSave": null,
+      "LastModeratedSaveModerationState": 0,
       "IsSandbox": false,
       "MaxPlayers": 12,
       "Accessibility": 1,
-      "UnitySceneId": "cbad71af-0831-44d8-b8ef-69edafa841f6",
-      "SavedByAccountId": 62
+      "ShouldAutoStageSaves": true,
+      "StagedSubRoomDataSaveId": 194730855
     }
   ],
   "Roles": [
     {
       "AccountId": 1,
       "Role": 255,
+      "LastChangedByAccountId": null,
       "InvitedRole": 0
     }
   ],
-  "DataBlob": null,
-  "UgcVersion": 1,
   "Tags": [
     {
       "Tag": "hangout",
       "Type": 0
     },
     {
-      "Tag": "rro",
+      "Tag": "hub",
+      "Type": 0
+    },
+    {
+      "Tag": "meetup",
+      "Type": 0
+    },
+    {
+      "Tag": "social",
       "Type": 0
     }
   ],
